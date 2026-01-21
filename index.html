@@ -6,10 +6,13 @@
     <title>Document</title>
     <!-- tailwindcss cdn  -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- external css  -->
     <link rel="stylesheet" href="style.css" />
+    <!-- fontawesome cdn  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   </head>
-  <body>
-    <header class="bg-[#1a0b2e] py-6">
+  <body class="bg-[#1a0b2e]">
+    <header class="bg-[#1a0b2e] py-6  border-b border-gray-800 ">
       <nav class="my-container flex items-center justify-between">
         <div class="brand">
           <h2 class="text-5xl font-bold">
@@ -20,12 +23,17 @@
             >
           </h2>
         </div>
-        <ul>
+        <ul class="flex text-white items-center justify-between gap-8">
             <li><a href="#">Home</a></li>
             <li><a href="#">Episode</a></li>
             <li><a href="#">Host</a></li>
         </ul>
+        <button class="flex gap-4 items-center justify-center bg-[linear-gradient(45deg,#f7e93f_0%,#fb09b4_51%,#9100f8_100%)] px-4 py-[12.5px] rounded-full text-base text-white hover:bg-[linear-gradient(90deg,#f7e93f_0%,#fb09b4_51%,#9100f8_100%)]">Subscribe <i class="fa-solid fa-arrow-right text-white ]"></i></button>
       </nav>
+
+      <div class="hero bg-[url('./assets/hero-bg.png')] bg-cover bg-no-repeat h-dvh">
+
+      </div>
     </header>
   </body>
 </html>
